@@ -7,10 +7,110 @@
     <link rel="stylesheet" href="style.css">
     <title>SVG</title>
 </head>
+<!-- Pedro Henrique Amaro Ferreira Lacerda -->
+<!-- Daniel Alencar Penha Carvalho -->
+
 <body>
+    <div class="credits">
+        <svg class="svg_credits">
+            <rect 
+                x="10" y="10" 
+                width="110" height="50" 
+                style="fill:rgba(0,0,0,0);stroke-width:3;stroke:rgb(0,0,0)"
+            />
+            <text x="20" y="30" >Pedro Amaro</text>
+            <text x="20" y="50" >Daniel Alencar</text>
+        </svg>
+    </div>
+
     <div class="graph">
-        <svg height="210" width="500">
-            <line x1="-1000" y1="0" x2="1000" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+        <svg class="svg_container">
+            <rect 
+                x="50" y="10" 
+                width="90" height="50" 
+                style="fill:rgba(0,0,0,0);stroke-width:3;stroke:rgb(0,0,0)"
+            />
+            <text x="55" y="30" >Petrolina</text>
+            <rect x="125" y="20" width="10" height="10" style="fill:rgb(255,0,0); stroke-width:0"/>
+            <text x="55" y="50" >Juazeiro</text>
+            <rect x="125" y="40" width="10" height="10" style="fill:rgb(0,0,255); stroke-width:0"/>
+
+            <!-- Eixo X -->
+            <g>
+                <line x1="0" y1="480" x2="1000" y2="480"/>
+                <text x="950" y="495" >Ano</text>
+                <text x="905" y="510" >2020</text>
+                <text x="805" y="510" >2010</text>
+                <text x="705" y="510" >2000</text>
+                <text x="605" y="510" >1990</text>
+                <text x="505" y="510" >1980</text>
+                <text x="405" y="510" >1970</text>
+                <text x="305" y="510" >1960</text>
+                <text x="205" y="510" >1950</text>
+                <text x="105" y="510" >1940</text>
+                
+
+                <line x1="120" y1="490" x2="120" y2="470"/>
+                <line x1="220" y1="490" x2="220" y2="470"/>
+                <line x1="320" y1="490" x2="320" y2="470"/>
+                <line x1="420" y1="490" x2="420" y2="470"/>
+                <line x1="520" y1="490" x2="520" y2="470"/>
+                <line x1="620" y1="490" x2="620" y2="470"/>
+                <line x1="720" y1="490" x2="720" y2="470"/>
+                <line x1="820" y1="490" x2="820" y2="470"/>
+                <line x1="920" y1="490" x2="920" y2="470"/>
+            </g>
+            
+            <!-- Eixo Y -->
+            <g>
+                <text x="-200" y="15" class="y-axys-leg">População</text>
+                <line x1="20" y1="500" x2="20" y2="0"/>
+                
+                <!-- 
+                <line x1="10" y1="380" x2="30" y2="380"/>
+                <line x1="10" y1="280" x2="30" y2="280"/>
+                <line x1="10" y1="180" x2="30" y2="180"/>
+                <line x1="10" y1="80" x2="30" y2="80"/>
+                --> 
+            </g>
+
+            <g>
+                <text x="895" y="20" >388.145</text>
+                <circle cx="920" cy="30" r="2" stroke="red" stroke-width="3"/>
+                <circle cx="820" cy="80" r="2" stroke="red" stroke-width="3"/>
+                <circle cx="720" cy="120" r="2" stroke="red" stroke-width="3"/>
+                <circle cx="620" cy="180" r="2" stroke="red" stroke-width="3"/>
+                <circle cx="520" cy="220" r="2" stroke="red" stroke-width="3"/>
+                <circle cx="420" cy="280" r="2" stroke="red" stroke-width="3"/>
+                <circle cx="320" cy="300" r="2" stroke="red" stroke-width="3"/>
+                <circle cx="220" cy="380" r="2" stroke="red" stroke-width="3"/>
+                <text x="105" y="400" >40.000</text>
+                <circle cx="120" cy="410" r="2" stroke="red" stroke-width="3"/>
+                
+                <path stroke="red"
+                    style="fill:rgba(0,0,0,0)"
+                    d="M920,30 L820,80 L720,120 L620,180 L520,220 L420,280 L320,300 L220,380 L120,410"
+                />
+            </g>
+
+            <g>
+                <text x="895" y="60" >219.544</text>
+                <circle cx="920" cy="40" r="2" stroke="blue" stroke-width="3"/>
+                <circle cx="820" cy="100" r="2" stroke="blue" stroke-width="3"/>
+                <circle cx="720" cy="140" r="2" stroke="blue" stroke-width="3"/>
+                <circle cx="620" cy="200" r="2" stroke="blue" stroke-width="3"/>
+                <circle cx="520" cy="240" r="2" stroke="blue" stroke-width="3"/>
+                <circle cx="420" cy="300" r="2" stroke="blue" stroke-width="3"/>
+                <circle cx="320" cy="320" r="2" stroke="blue" stroke-width="3"/>
+                <circle cx="220" cy="400" r="2" stroke="blue" stroke-width="3"/>
+                <circle cx="120" cy="430" r="2" stroke="blue" stroke-width="3"/>
+
+                <path stroke="blue"
+                    style="fill:rgba(0,0,0,0)"
+                    d="M920,40 L820,100 L720,140 L620,200 L520,240 L420,300 L320,320 L220,400 L120,430"
+                />
+            </g>
+            
         </svg>
     </div>
 </body>
