@@ -11,17 +11,26 @@
 <!-- Daniel Alencar Penha Carvalho -->
 
 <body>
-    <div class="credits">
-        <svg class="svg_credits">
-            <rect 
-                x="10" y="10" 
-                width="110" height="50" 
-                style="fill:rgba(0,0,0,0);stroke-width:3;stroke:rgb(0,0,0)"
-            />
-            <text x="20" y="30" >Pedro Amaro</text>
-            <text x="20" y="50" >Daniel Alencar</text>
-        </svg>
+
+    <div class="container">
+        <div class="credits">
+            <svg class="svg_credits">
+                <rect 
+                    x="10" y="10" 
+                    width="110" height="50" 
+                    style="fill:rgba(0,0,0,0);stroke-width:3;stroke:rgb(0,0,0)"
+                />
+                <text x="20" y="30" >Pedro Amaro</text>
+                <text x="20" y="50" >Daniel Alencar</text>
+            </svg>
+        </div>
+    
+        <div class="interact">
+            <text>Passe o mouse por cima dos pontos que deseja ver</text>
+        </div>
     </div>
+
+    
 
     <div class="graph">
         <svg class="svg_container">
@@ -30,7 +39,7 @@
                 width="90" height="50" 
                 style="fill:rgba(0,0,0,0);stroke-width:3;stroke:rgb(0,0,0)"
             />
-            <text x="55" y="30" >Petrolina</text>
+            <text x="55" y="30" class="show">Petrolina</text>
             <rect x="125" y="20" width="10" height="10" style="fill:rgb(255,0,0); stroke-width:0"/>
             <text x="55" y="50" >Juazeiro</text>
             <rect x="125" y="40" width="10" height="10" style="fill:rgb(0,0,255); stroke-width:0"/>
@@ -75,17 +84,18 @@
             </g>
 
             <g>
-                <text x="895" y="20" >388.145</text>
-                <circle cx="920" cy="30" r="2" stroke="red" stroke-width="3"/>
-                <circle cx="820" cy="80" r="2" stroke="red" stroke-width="3"/>
-                <circle cx="720" cy="120" r="2" stroke="red" stroke-width="3"/>
-                <circle cx="620" cy="180" r="2" stroke="red" stroke-width="3"/>
-                <circle cx="520" cy="220" r="2" stroke="red" stroke-width="3"/>
-                <circle cx="420" cy="280" r="2" stroke="red" stroke-width="3"/>
-                <circle cx="320" cy="300" r="2" stroke="red" stroke-width="3"/>
-                <circle cx="220" cy="380" r="2" stroke="red" stroke-width="3"/>
-                <text x="105" y="400" >40.000</text>
-                <circle cx="120" cy="410" r="2" stroke="red" stroke-width="3"/>
+                <circle cx="920" cy="30" r="2" stroke="red" stroke-width="3" class="show"/>
+                <text x="895" y="20" class="hide">388.145</text>
+                <circle cx="820" cy="80" r="2" stroke="red" stroke-width="3" class="show"/>
+                <text x="790" y="65" class="hide">293.962</text>
+                <circle cx="720" cy="120" r="2" stroke="red" stroke-width="3" class="show"/>
+                <text x="700" y="105" class="hide">218.538</text>
+                <circle cx="620" cy="180" r="2" stroke="red" stroke-width="3" class="show"/>
+                <text x="580" y="170" class="hide">175.406</text>
+                <circle cx="520" cy="220" r="2" stroke="red" stroke-width="3" class="show"/>
+                <text x="490" y="200" class="hide">104.297</text>
+                <circle cx="420" cy="280" r="2" stroke="red" stroke-width="3" class="show"/>
+                <text x="400" y="260" class="hide">61.252</text>
                 
                 <path stroke="red"
                     style="fill:rgba(0,0,0,0)"
@@ -94,8 +104,8 @@
             </g>
 
             <g>
-                <text x="895" y="60" >219.544</text>
-                <circle cx="920" cy="40" r="2" stroke="blue" stroke-width="3"/>
+                <circle cx="920" cy="40" r="2" stroke="blue" stroke-width="3" class="show"/>
+                <text x="895" y="70" class="hide">219.544</text>
                 <circle cx="820" cy="100" r="2" stroke="blue" stroke-width="3"/>
                 <circle cx="720" cy="140" r="2" stroke="blue" stroke-width="3"/>
                 <circle cx="620" cy="200" r="2" stroke="blue" stroke-width="3"/>
