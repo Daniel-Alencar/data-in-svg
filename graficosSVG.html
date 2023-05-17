@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
     <title>SVG</title>
 </head>
 <!-- Pedro Henrique Amaro Ferreira Lacerda -->
@@ -29,9 +30,6 @@
             <text>Passe o mouse por cima dos pontos que deseja ver</text>
         </div>
     </div>
-
-    
-
     <div class="graph">
         <svg class="svg_container">
             <rect 
@@ -75,45 +73,72 @@
                 <text x="-200" y="15" class="y-axys-leg">População</text>
                 <line x1="20" y1="500" x2="20" y2="0"/>
                 
-                <!-- 
-                <line x1="10" y1="380" x2="30" y2="380"/>
-                <line x1="10" y1="280" x2="30" y2="280"/>
-                <line x1="10" y1="180" x2="30" y2="180"/>
-                <line x1="10" y1="80" x2="30" y2="80"/>
-                --> 
+                <!-- representa 0 habitantes -->
+                <line x1="10" y1="480" x2="30" y2="480"/>
+                
+                <line x1="10" y1="386" x2="30" y2="386"/>
+                <line x1="10" y1="292" x2="30" y2="292"/>
+                <line x1="10" y1="198" x2="30" y2="198"/>
+                <line x1="10" y1="104" x2="30" y2="104"/>
+
+                <!-- Representa 400000 habitantes -->
+                <line x1="10" y1="10" x2="30" y2="10"/>
             </g>
 
+            <!-- Petrolina -->
             <g>
-                <circle cx="920" cy="30" r="2" stroke="red" stroke-width="3" class="show"/>
+                <circle cx="920" cy="23.9" r="2" stroke="red" stroke-width="3" class="show"/>
                 <text x="895" y="20" class="hide">388.145</text>
-                <circle cx="820" cy="80" r="2" stroke="red" stroke-width="3" class="show"/>
+
+                <circle cx="820" cy="134.6" r="2" stroke="red" stroke-width="3" class="show"/>
                 <text x="790" y="65" class="hide">293.962</text>
-                <circle cx="720" cy="120" r="2" stroke="red" stroke-width="3" class="show"/>
-                <text x="700" y="105" class="hide">218.538</text>
-                <circle cx="620" cy="180" r="2" stroke="red" stroke-width="3" class="show"/>
+
+                <circle cx="720" cy="223.21" r="2" stroke="red" stroke-width="3" class="show"/>
+                <text x="700" y="137.6" class="hide">218.538</text>
+
+                <circle cx="620" cy="273.9" r="2" stroke="red" stroke-width="3" class="show"/>
                 <text x="580" y="170" class="hide">175.406</text>
-                <circle cx="520" cy="220" r="2" stroke="red" stroke-width="3" class="show"/>
+
+                <circle cx="520" cy="357.45" r="2" stroke="red" stroke-width="3" class="show"/>
                 <text x="490" y="200" class="hide">104.297</text>
-                <circle cx="420" cy="280" r="2" stroke="red" stroke-width="3" class="show"/>
+
+                <circle cx="420" cy="408" r="2" stroke="red" stroke-width="3" class="show"/>
                 <text x="400" y="260" class="hide">61.252</text>
                 
                 <path stroke="red"
                     style="fill:rgba(0,0,0,0)"
-                    d="M920,30 L820,80 L720,120 L620,180 L520,220 L420,280 L320,300 L220,380 L120,410"
+                    d="M920,30 L820,80 L720,120 L620,180 L520,220 L420,280"
                 />
             </g>
 
+            <!-- Juazeiro -->
             <g>
                 <circle cx="920" cy="40" r="2" stroke="blue" stroke-width="3" class="show"/>
                 <text x="895" y="70" class="hide">219.544</text>
+
                 <circle cx="820" cy="100" r="2" stroke="blue" stroke-width="3"/>
+                <text x="895" y="70" class="hide">219.544</text>
+
                 <circle cx="720" cy="140" r="2" stroke="blue" stroke-width="3"/>
+                <text x="895" y="70" class="hide">219.544</text>
+
                 <circle cx="620" cy="200" r="2" stroke="blue" stroke-width="3"/>
+                <text x="895" y="70" class="hide">219.544</text>
+
                 <circle cx="520" cy="240" r="2" stroke="blue" stroke-width="3"/>
+                <text x="895" y="70" class="hide">219.544</text>
+
                 <circle cx="420" cy="300" r="2" stroke="blue" stroke-width="3"/>
+                <text x="895" y="70" class="hide">219.544</text>
+
                 <circle cx="320" cy="320" r="2" stroke="blue" stroke-width="3"/>
+                <text x="895" y="70" class="hide">219.544</text>
+
                 <circle cx="220" cy="400" r="2" stroke="blue" stroke-width="3"/>
+                <text x="895" y="70" class="hide">219.544</text>
+
                 <circle cx="120" cy="430" r="2" stroke="blue" stroke-width="3"/>
+                <text x="895" y="70" class="hide">219.544</text>
 
                 <path stroke="blue"
                     style="fill:rgba(0,0,0,0)"
