@@ -12,4 +12,4 @@ Abra um terminal no seu computador e baixe este repositório.
 ```
 git clone https://github.com/Daniel-Alencar/data-in-svg
 ```
-Navegue até a pasta do projeto e simplemente, abra o arquivo ["graficosSVG.html"](graficosSVG.html) em seu navegador e o SVG será exibido!
+Navegue até a pasta do projeto e simplesmente, abra o arquivo ["graficosSVG.html"](graficosSVG.html) em seu navegador e o SVG será exibido!
